@@ -1,5 +1,6 @@
 class Complex(x: Double, y: Double){
 
- def re() = x;
- def mi() = y;
+ def re = x;
+ def mi = y;
+
 }
