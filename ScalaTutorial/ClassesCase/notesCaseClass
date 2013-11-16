@@ -1,0 +1,16 @@
+a palavra chave new não é necessária para criar instâncias dessas classes (quer
+dizer que podemos escrever simplesmente Const(5) ao invés de new Const(5)),
+-----
+• funções do tipo getter são automaticamente definidas para os parâmetros do
+construtor (por exemplo, é possível pegar o valor do parâmetro v de uma in-
+stância chamada c da classe Const apenas com c.v),
+-----
+• a definição padrão dos métodos equals e hashCode são disponibilizadas, tra-
+balhando com a structure das instâncias e não com sua identidade.
+----
+• uma definição padrão para o método toString também é disponibilizada, e
+imprime o valor na sua “forma padrão” (por exemplo, a expressão x + 1 im-
+prime Sum(Var(x),Const(1))),
+-----
+• instâncias dessas classes podem ser decompostas através de busca por padrão
+como veremos mais a frente.
